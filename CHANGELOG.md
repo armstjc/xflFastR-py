@@ -1,5 +1,10 @@
 # CHANGELOG : xflFastR-py
 
+## 0.0.1a3 - Second pass on fixing #2
+
+- Attempted a fix on a bug where the following error was raised when installing:
+  `ERROR: No matching distribution found for urllib [end of output]`
+
 ## 0.0.1a2 - First pass on fixing #2
 
 - Attempted a fix on a bug where the following error was raised when installing:
