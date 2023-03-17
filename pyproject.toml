@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools","wheel","pyarrow","pandas","tqdm","urllib","requests","lxml"]
+requires = ["setuptools","wheel","pyarrow","pandas","tqdm","requests","lxml"]
 build-backend = "setuptools.build_meta"
 
 [project]
