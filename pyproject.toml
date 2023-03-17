@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools","wheel","pyarrow","pandas","tqdm","urllib","requests","lxml"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xfl_fast_r"
+version = "0.0.1a1"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+authors = [
+    {name = "Joseph Armstrong", email="armstrongjoseph08@gmail.com"}
+]
+
+maintainers = [
+    {name = "Joseph Armstrong", email="armstrongjoseph08@gmail.com"}
+]
+
+description = "Python package for the XFL 3.0 league."
+
+keywords = ['XFL','xfl','football','american_football','gridiron_football','alt_league','alt_league_football']
+
+classifiers = [
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10'
+]
+
+dependencies = [
+    "setuptools>=67.6.0",
+    "wheel",
+    "pyarrow>=11.0.0",
+    "pandas>=1.5.3",
+    "tqdm",
+    "urllib",
+    "requests",
+    "lxml"
+]
+
+[project.urls]
+homepage = "https://github.com/armstjc/xflFastR-py"
+documentation = "https://github.com/armstjc/xflFastR-py/wiki"
+repository = "https://github.com/armstjc/xflFastR-py.git"
+changelog = "https://github.com/armstjc/xflFastR-py/CHANGELOG.md"
