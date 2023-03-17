@@ -1,5 +1,10 @@
 # CHANGELOG : xflFastR-py
 
+## 0.0.1a2 - First pass on fixing #2
+
+- Attempted a fix on a bug where the following error was raised when installing:
+  `ERROR: No matching distribution found for urllib [end of output]`
+
 ## 0.0.1a1 - "最初のステップ" (First Steps)
 
 - Implemented `get_xfl_game_participation()`, a function that allows a programer to get player participation data if they have a valid XFL API token and a valid XFL API game ID.

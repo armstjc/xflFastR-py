@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xfl_fast_r"
-version = "0.0.1a1"
+version = "0.0.1a2"
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
@@ -34,7 +34,6 @@ dependencies = [
     "pyarrow>=11.0.0",
     "pandas>=1.5.3",
     "tqdm",
-    "urllib",
     "requests",
     "lxml"
 ]
